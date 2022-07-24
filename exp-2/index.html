@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .title-container {
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .title {
+            text-align: center;
+            font-style: bold;
+            color: blue;
+        }
+
+        .home-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .img-container {
+            margin: 2rem;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .login {
+            width: 20%;
+            padding: 1rem;
+        }
+
+        .login-container {
+            background-color: #FFC0CB;
+            width: 50%;
+            text-align: center;
+        }
+
+        .map-container {
+            display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="title-container">
+        <h2 class="title">Karunya Institue Of Technology and Science</h2>
+    </header>
+    <hr>
+
+    <section class="home-section">
+        <div class="topnav">
+            <a href="#AboutUs">AboutUS&emsp; |</a>
+            <a href="Admission">Adimission</a>
+            <a href="Academic Calander">Academic Calender</a>
+        </div>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="Search">
+                <button type="submit"><i class="fafa-search"></i></button>
+            </form>
+        </div>
+    </section>
+    <hr>
+
+    <section class="img-container">
+        <img src="https://im.indiatimes.in/content/itimes/blog/2015/Jul/21/1437493859-computer-world.jpg" alt="">
+    </section>
+
+    <section class="about-container">
+        <div class="about">
+            <h1>About Us</h1>
+            <p>Karunya Institute of Technology and Sciences, was founded with the noble vision to raise professionals
+                and leaders of high academic calibre and unblemished character, nurtured with a strong motivation and
+                commitment to serve humanity. The institution is the fulfillment of the vision of its founders Late Dr.
+                D. G. S. Dhinakaran and the present Chancellor Dr. Paul Dhinakaran. Established in 1986 as an
+                Engineering College, it was granted an autonomous status in 1999 and declared Deemed-to-be University by
+                the University Grants Commission (UGC) in recognition of its academic excellence by the Ministry of
+                Human Resources Development under section 3 of the UGC Act, 1956 vide notification no 9-3-2000-U3 dated
+                23.6.2004 of the Government of India.</p>
+        </div>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-mQMuQMsJtw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <hr>
+
+    <section class="audio-container">
+        <h4>Today's talk:</h4>
+        <audio controls>
+            <source src="assest/audio/VikramMovieBgm.mp3" type="audio/mp3">
+        </audio>
+    </section>
+    <hr>
+
+    <section class="login-container">
+        <h4 class="login-text">Sign In</h4>
+        <div class="login">
+            <label for="unname"><b>Username</b></label>
+            <input type="text" placeholder="Enter user name" name="uname" required>
+            <label for="psw"><b>password</b></label>
+            <input type="password" placeholder="Enter password" name="psw" required>
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" id="">
+            </label>
+        </div>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15669.438424745249!2d76.73530622097744!3d10.936184943509568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba866bd6aaaaaab%3A0xc650b8a75e7b51f0!2sKarunya%20Institute%20of%20Technology%20and%20Sciences%20(Deemed%20University)!5e0!3m2!1sen!2sin!4v1658658530661!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
