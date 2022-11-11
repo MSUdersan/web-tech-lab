@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title-container{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .head-container{
+            text-align: center;
+        }
+        .sos-container{
+            text-align: center;
+        }
+
+    </style>
+    <script>
+                   $(document).ready(function(){
+              $('#btn').click(function(){
+                   let Room Rent(%) = parseInt($('#t1').val());
+                   let num2 = parseInt($('#t2').val())
+                   let sum = num1 + num2;
+                   $('#result').val(sum);
+                   $('#box').html("Result: " + sum);
+              })
+         })
+
+    </script>
+
+</head>
+<body>
+    <header class="title-container"></header>
+    <h2>Budget calculator App</h2><br><br>
+    <div class="sos-conatiner">
+    <h3>Enter Amount that you want to manage </h3><br>
+    <input type="text" id="t1"><br><br>
+    </div>
+    <div class="head-container">
+   <h3> How would you like to divide your money?</h3><br><br>
+    </div>
+    Room Rent(%): <input type="text" id="t2">
+    Accessories(%): <input type="text" id="t3">
+    Emergency(%): <input type="text" id="t4">
+    savings(%): <input type="text" id="'t5">
+    <button id="btn">percentage</button><br><br>
+    Evaluate MY Money: <input type="text" id="EVALUATE MY MONEY" readonly><br><br>
+    <div id="box" style="background-color:blue;color:white;width:300px;">
+    </div>
+</body>
+</html>

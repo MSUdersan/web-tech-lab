@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: darkblue;
+    padding: 15px;
+}
+.banner{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 400px;
+}
+.about {
+    background-color: bisque;
+}
+.about h3{
+    text-align: center;
+}
+.about p{
+    text-align: justify;
+    padding: 24px;
+}
+.box1{
+    height: 400px;
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.box2{
+    height: 400px;
+    background-image: url("img111.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.33%;
+    float: left;
+    position: relative;
+
+}
+.box3{
+    height: 400px;
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.33%;
+    float: left;
+}
+.box1 h2{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+.box2 h2{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.box3 h2{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+.box1 h2:hover{
+    opacity: 1;
+}
+.box2 h2:hover{
+    opacity: 1;
+}
+.box3 h2:hover{
+    opacity: 1;
+}
+.campus{
+    height: 400px;
+    background-color: bisque;
+    background-size: cover;
+    width: 50%;
+    float: left;
+}
+
+.campus h2{
+    padding: 25px;
+    font-size:30px;
+}
+.campus p{
+    padding: 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+.cl{
+    height: 400px;
+    background-image: url("campus_life.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    float: left;
+}
+
+
+.frm1{
+    height: 400px;
+    background-image: url("grass.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.drone{
+    height: 400px;
+    background-color: bisque;
+    background-size: cover;
+    width: 50%;
+    float: left;
+}
+.drone h2{
+    padding : 25px;
+    font-size:30px;
+}
+.drone p{
+    text-align: justify;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.box5{
+    background-image: url("https://karunya.edu/sites/default/files/img/technology-mission/drone-for-agri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.form p{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.form label{
+    width: 100%;
+    height: 30px;
+}
+
+label,input{
+    display: block;
+}
+
+input[type=text]{
+    width: 93%;
+    height: 26px;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    border: 3px solid #b5b5b5;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+/* Pseudo class */
+input[type=text]:focus{
+    background-color: white;
+    border: 3px solid #3675c8;
+    box-shadow: 0 0 10px #5793db;
+}
+
+input[type=password]{
+    width: 93%;
+    height: 26px;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    background-color: #d3d3d3;
+    border: 3px solid #d3d3d3;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+/* Pseudo class */
+input[type=password]:focus{
+    background-color: white;
+    border: 3px solid #3675c8;
+    box-shadow: 0 0 10px #5793db;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 46px;
+    font-size: 18px;
+    background-color: #0166fe;
+    border: 3px solid #0c5ccf;
+    border-radius: 5px;
+    margin-top: 45px;
+    color: white;
+}
